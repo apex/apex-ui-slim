@@ -12,7 +12,7 @@
     "writer",
     "slim"
   ],
-  "repository": "https://github.com/apex/apex-ui",
+  "repository": "https://github.com/apex/apex-ui-slim",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

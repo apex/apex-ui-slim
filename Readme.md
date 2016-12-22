@@ -3,16 +3,17 @@
 ### Installation
 
 ```
-$ apm install apex-ui
+$ apm install apex-ui-slim
 ```
 
 ### Screenshot
 
-![](https://dl.dropboxusercontent.com/u/6396913/Apex/Atom/apex-atom.jpg)
+![](https://dl.dropboxusercontent.com/u/6396913/Apex/Atom/apex-ui-slime.jpg)
 
 ## Links
 
 - [Remove title bar](https://atom.io/packages/no-title-bar)
+- [Apex UI](https://github.com/apex/apex-ui)
 - [Apex Syntax](https://github.com/apex/apex-syntax)
 
 ## Badges
