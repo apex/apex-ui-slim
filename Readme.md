@@ -1,9 +1,10 @@
 ![Apex Atom monochrome UI](https://dl.dropboxusercontent.com/u/6396913/Apex/Atom/apex-ui-logo.png)
 
 ### Installation
+*(for now)*
 
 ```
-$ apm install apex-ui-slim
+$ apm install apex/apex-ui-slim
 ```
 
 ### Screenshot
