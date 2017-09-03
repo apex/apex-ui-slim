@@ -32,9 +32,9 @@ atom-text-editor[mini] {
     background-color: @input-background-color;
     border-bottom: 1px solid transparent;
 
-    &.is-focused {
+    &.is-focused.editor {
       border-bottom: 1px solid @base-border-color;
-      &::shadow {
+      &.editor {
         .cursor {
           display: block;
         }
@@ -42,17 +42,15 @@ atom-text-editor[mini] {
     }
     &,// <-- Deprecated. The `&,` can be removed once the Shadow DOM can't be turned off in the settings.
 
-    &::shadow {
-      .placeholder-text {
-        color: @text-color-subtle;
-      }
+    .placeholder-text {
+      color: @text-color-subtle;
+    }
 
-      .selection .region {
-        background-color: @background-color-selected;
-      }
+    .selection .region {
+      background-color: @background-color-selected;
+    }
 
-      .cursor {
-        display: none;
-      }
+    .cursor {
+      display: none;
     }
 }
